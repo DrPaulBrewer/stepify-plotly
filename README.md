@@ -13,7 +13,8 @@ You have this data:
 
 but you want a stairstep plot:
 
-<pre>       ___
+<pre> 
+ |          ___
  |          |
  |      ____|
  |      |    
