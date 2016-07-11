@@ -1,7 +1,8 @@
 stepify-plotly
 ==================
+[![Build Status](https://travis-ci.org/DrPaulBrewer/stepify-plotly.svg?branch=master)](https://travis-ci.org/DrPaulBrewer/stepify-plotly)
 
-As of July 2016 this was useful to convert line charts into step charts in Plotly[tm].
+As of July 2016 this is useful to convert line charts into step charts in Plotly[tm].
 
 ##Problem
 
@@ -36,9 +37,15 @@ Alters the x and y data to produce a staircase effect.  It makes a copy first wi
 
 If `trace.step` is falsy, it is deleted and the plot data is unaltered.  If `trace.step` is absent, trace is passed unaltered.
 
-###Trademarks
+##Copyright
 
-For the avoidance of doubt:
+Copyright 2016 Paul Brewer, Economic and Fiancial Technology Consulting LLC
+
+##License
+
+[The MIT License](LICENSE.md)
+
+###Trademarks
 
   * Plotly[tm] is a trademark of [Plotly, Inc.](http:/www.plotly.com)
  
