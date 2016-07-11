@@ -17,25 +17,25 @@ var lineTrace = {
     y: ydata,
 };
 
-var lineTraceStepFalse = Object.assign({}, clone(lineTrace), {step:false});
-var lineTraceStepTrue  = Object.assign({}, clone(lineTrace), {step:true});
+var lineTraceStepFalse = Object.assign({}, clone(lineTrace), {steps:false});
+var lineTraceStepTrue  = Object.assign({}, clone(lineTrace), {steps:true});
 
 describe('stepify-plotly', function(){
     it('should be a function', function(){
 	stepify.should.be.type('function');
     });
 
-    it('should passthru a trace without .step set', function(){
+    it('should passthru a trace without .steps set', function(){
 	stepify(lineTrace).should.deepEqual(clone(lineTrace));
     });
 
-    it('should delete .step from a trace with .step set false and passthru other settings', function(){
-	assert(typeof(stepify(lineTraceStepTrue).step)==='undefined');
+    it('should delete .step from a trace with .steps set false and passthru other settings', function(){
+	assert(typeof(stepify(lineTraceStepTrue).steps)==='undefined');
 	stepify(lineTraceStepFalse).should.deepEqual(clone(lineTrace));
     });
 
-    it('should delete .step from a trace with .step set true', function(){
-	assert(typeof(stepify(lineTraceStepTrue).step)==='undefined');
+    it('should delete .step from a trace with .steps set true', function(){
+	assert(typeof(stepify(lineTraceStepTrue).steps)==='undefined');
     });
 
     it('when .step is true, should duplicate and adjust trace.x,trace.y arraysproperly to form stair steps', function(){
