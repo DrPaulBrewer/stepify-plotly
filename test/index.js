@@ -38,7 +38,7 @@ describe('stepify-plotly', function(){
 	assert(typeof(stepify(lineTraceStepTrue).steps)==='undefined');
     });
 
-    it('when .step is true, should duplicate and adjust trace.x,trace.y arraysproperly to form stair steps', function(){
+    it('when .steps is true, should duplicate and calculate trace.x,trace.y arrays properly to form stair steps', function(){
 	var result = stepify(lineTraceStepTrue);
 	assert.ok(result.x!==lineTraceStepTrue.x);
 	assert.ok(result.y!==lineTraceStepTrue.y);
