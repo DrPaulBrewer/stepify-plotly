@@ -1,0 +1,32 @@
+{
+  "name": "stepify-plotly",
+  "version": "1.0.0",
+  "description": "transform line chart into step chart if .step is truthy, otherwise passthru",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --slow 50 --timeout 2000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drpaulbrewer/stepify-plotly.git"
+  },
+  "keywords": [
+    "step-chart",
+    "staircase-chart",
+    "plotly"
+  ],
+  "author": "drpaulbrewer@eaftc.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drpaulbrewer/stepify-plotly/issues"
+  },
+  "homepage": "https://github.com/drpaulbrewer/stepify-plotly#readme",
+  "devDependencies": {
+    "clone": "^1.0.2",
+    "mocha": "^2.5.3",
+    "should": "^8.4.0"
+  },
+  "dependencies": {
+    "clone": "^1.0.2"
+  }
+}
