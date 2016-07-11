@@ -1,6 +1,6 @@
 {
   "name": "stepify-plotly",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "transform line chart into step chart if .steps is truthy, otherwise passthru",
   "main": "index.js",
   "scripts": {
