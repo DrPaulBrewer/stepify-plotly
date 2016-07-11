@@ -49,4 +49,9 @@ Copyright 2016 Paul Brewer, Economic and Fiancial Technology Consulting LLC
 
   * Plotly[tm] is a trademark of [Plotly, Inc.](http:/www.plotly.com)
  
-  * `step-charts-plotly` is not an official product of Plotly, Inc., but our 3rd party open source contribution.
+  * `stepify-plotly` is not an official product of Plotly, Inc., but our 3rd party open source contribution.  
+
+  * `stepify-plotly` is not part of a similarly named npm project called `stepify`, whatever that may be.
+
+
+
