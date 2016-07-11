@@ -39,7 +39,7 @@ If `trace.step` is falsy, it is deleted and the plot data is unaltered.  If `tra
 
 ##Copyright
 
-Copyright 2016 Paul Brewer, Economic and Fiancial Technology Consulting LLC
+Copyright 2016 Paul Brewer, Economic and Financial Technology Consulting LLC
 
 ##License
 
