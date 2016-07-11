@@ -1,7 +1,7 @@
 {
   "name": "stepify-plotly",
   "version": "1.0.4",
-  "description": "transform line chart into step chart if .step is truthy, otherwise passthru",
+  "description": "transform line chart into step chart if .steps is truthy, otherwise passthru",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha --reporter spec --slow 50 --timeout 2000"
