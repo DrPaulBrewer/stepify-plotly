@@ -29,12 +29,12 @@ describe('stepify-plotly', function(){
 	stepify(lineTrace).should.deepEqual(clone(lineTrace));
     });
 
-    it('should delete .step from a trace with .steps set false and passthru other settings', function(){
+    it('should delete .steps from a trace with .steps set false and passthru other settings', function(){
 	assert(typeof(stepify(lineTraceStepTrue).steps)==='undefined');
 	stepify(lineTraceStepFalse).should.deepEqual(clone(lineTrace));
     });
 
-    it('should delete .step from a trace with .steps set true', function(){
+    it('should delete .steps from a trace with .steps set true', function(){
 	assert(typeof(stepify(lineTraceStepTrue).steps)==='undefined');
     });
 
