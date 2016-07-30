@@ -36,7 +36,7 @@ Alters the x and y data to produce a staircase effect.  It makes a copy first wi
 
 ##Safe for regular line plots too
 
-If `trace.step` is falsy, it is deleted and the plot data is unaltered.  If `trace.step` is absent, trace is passed unaltered.
+If `trace.steps` is falsy, it is deleted and the plot data is unaltered.  If `trace.steps` is absent, trace is passed unaltered.
 
 ##Copyright
 
