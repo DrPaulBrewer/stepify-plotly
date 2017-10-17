@@ -1,5 +1,7 @@
 stepify-plotly
 ==================
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/DrPaulBrewer/stepify-plotly.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/DrPaulBrewer/stepify-plotly.svg?branch=master)](https://travis-ci.org/DrPaulBrewer/stepify-plotly)
 
 As of July 2016 this is useful to convert line charts into step charts in Plotly[tm].
